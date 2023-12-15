@@ -25,7 +25,7 @@ export default function Homepage() {
       </div>
       <div class="container flex flex-col items-center justify-center py-10 mx-auto rounded-lg md:p-1 p-3">
         <img
-          class="object-cover object-center  mb-10 h-[500px] w-[300px] dark:border-gray-900 g327  rounded-lg shadow-md"
+          class="object-cover object-center   mb-10 h-[500px] w-[500px] dark:border-gray-900 g327  rounded-lg shadow-md"
           alt="hero"
           src="https://cdn.pixabay.com/photo/2021/12/30/14/49/metaverse-6904045_640.png"
         ></img>
