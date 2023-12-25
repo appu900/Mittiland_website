@@ -5,28 +5,21 @@ import { ModelCard } from "../../Components/Models/ModelCard";
 
 const ProductHome = () => {
   return (
-    <div className="bg-[#02021E] h-auto">
+    <div className="h-auto bg-[#F3F6F8]">
       <ProductNavbar />
 
-      <div className=" py-5">
-        <div className="mt-5">
-          <HomeCarausal />
-        </div>
-      </div>
+     
 
       {/* category section */}
 
-      <div className="w-full px-[30px] text-white text-left space-x-10 mt-5">
-        <button className="">Gaming</button>
-        <button className="">Arts and Abstract</button>
-        <button>Cars</button>
-        <button>Animals</button>
-        <button>Science</button>
-        <button>Engineering</button>
-      </div>
+      {/* <div className="bg-white text-3xl mb-16 py-10 text-left md:px-36 w-full h-[200px] font-semibold">
+        Explore our best Unity Models
+      </div> */}
 
-      <div className="grid grid-cols-3 px-[30px] mt-10 gap-7">
-        {[1, 1, 1, 1, 1, 1, 1].map((item) => (
+    
+
+      <div className="grid grid-cols-4 px-[130px] mt-10 gap-7">
+        {[1, 1, 1, 1, 1, 1, 1,1,1,1,1,1,1,1,1,1,1,].map((item) => (
           <ModelCard />
         ))}
       </div>
