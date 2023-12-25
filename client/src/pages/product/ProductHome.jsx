@@ -18,7 +18,7 @@ const ProductHome = () => {
 
     
 
-      <div className="grid grid-cols-4 px-[130px] mt-10 gap-7">
+      <div className="grid grid-cols-4 px-[30px] mt-10 gap-7">
         {[1, 1, 1, 1, 1, 1, 1,1,1,1,1,1,1,1,1,1,1,].map((item) => (
           <ModelCard />
         ))}

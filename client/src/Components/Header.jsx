@@ -45,7 +45,7 @@ export default function Header() {
           onClick={e=>navigate('/about')}
           class="mr-6 hover:text-white cursor-pointer">About us</a>
           <a class="mr-6 hover:text-white cursor-pointer" >Contact</a>
-          <a class="mr-6 hover:text-white" >Contact</a>
+          <a class="mr-6 hover:text-white cursor-pointer" onClick={e=>navigate('/products')} >Products</a>
 
         </nav>
         
